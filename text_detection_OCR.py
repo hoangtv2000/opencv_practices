@@ -44,7 +44,7 @@ def word_detector():
     cv2.imshow('Image and words', image)
     cv2.waitKey(0)
 
-
+# Detecting words on webcam or on-screen
 def realtime_detector():
     cap = cv2.VideoCapture(0)
     cap.set(3, 1920)
