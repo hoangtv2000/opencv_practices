@@ -15,12 +15,12 @@ Tesseract is the OCR (Optical Character Recognition) current top engine, it is d
 + **Fuzzy-space resolution**.
 
 #### Word recognition process:
-+ 1, Blob detector regconizes each blob corresponds to each character in a word (in the most cases).
-+ 2, Present result to a dictionary search and choose one of classifier choices for each blob in a word.
-+ 3, Each word that is satisfactory is passed to an adaptive classifier as training data.
-+ 4, Cut poorly recognized characters (called fragments), in order to mproves the classifier confidence. 
-+ 5, A best-first search of the resulting segmentation graph puts fragments back together and recombinate together. Then present result to dictionary.
-+ 6, The output of BFS is the best overall distance-based rating. 
++ **Step 1.** Blob detector regconizes each blob corresponds to each character in a word (in the most cases).
++ **Step 2.** Present result to a dictionary search and choose one of classifier choices for each blob in a word.
++ **Step 3.** Each word that is satisfactory is passed to an adaptive classifier as training data.
++ **Step 4.** Cut poorly recognized characters (called fragments), in order to mproves the classifier confidence. 
++ **Step 5.** A best-first search of the resulting segmentation graph puts fragments back together and recombinate together. Then present result to dictionary.
++ **Step 6.** The output of BFS is the best overall distance-based rating. 
 
 The rating according to whether the word was in a dictionary and/or had a sensible arrangement of punctuation around it. For the English version, most of these punctuation rules were hard-coded. 
 
@@ -48,11 +48,11 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 **Output**: A list of filtered proposals D.
 
 #### NMS process
-+ 1, Create empty D, select the proposal with highest confidence score, remove it from B and add it to the final proposal list D. 
-+ 2, Compare this proposal with all remaining proposals in B — calculate the Intersection over Union (IOU) of this proposal with every other proposal. If the IOU is greater than the threshold N, remove that proposal from B.
-+ 3, Again take the proposal with the highest confidence from the remaining proposals in B and remove it from B and add it to D.
-+ 4, Once again calculate the IOU of this proposal with all the proposals in B and eliminate the boxes which have high IOU than threshold.
-+ 5, This process is repeated until there are no more proposals left in B.
++ **Step 1.** Create empty D, select the proposal with highest confidence score, remove it from B and add it to the final proposal list D. 
++ **Step 2.** Compare this proposal with all remaining proposals in B — calculate the Intersection over Union (IOU) of this proposal with every other proposal. If the IOU is greater than the threshold N, remove that proposal from B.
++ **Step 3.** Again take the proposal with the highest confidence from the remaining proposals in B and remove it from B and add it to D.
++ **Step 4.** Once again calculate the IOU of this proposal with all the proposals in B and eliminate the boxes which have high IOU than threshold.
++ **Step 5.** This process is repeated until there are no more proposals left in B.
 
 ### Result
 
