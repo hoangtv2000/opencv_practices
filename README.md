@@ -28,22 +28,24 @@ The modern version of Tesseract adds a new LSTM model. The input image is proces
 
 ### Result
 
-<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/images/part1_res.png" alt="Part1 result">
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part1_res.png" alt="Part1 result">
 
 
 ## Part 2. Object detection with SSD and NMS
 Implement Single Shot Detector (SSD) for object detection problem. And apply Non-max suppression techique to remove redundant proposal boxes.
 
 ### SSD
-**Single shot detector (SSD)** is a NN architecture designed for detection purposes - which means localization (bounding boxes) and classification at once.
+**Single shot detector (SSD)** is a neural net architecture designed for object detection purposes - which means extract high-level features, localization (bounding boxes) and classification while propagation. The MobileNet-v3 SSD model is pretrained by COCO dataset. In can classify [91 diferrent classes](https://github.com/ankityddv/ObjectDetector-OpenCV/blob/main/coco.names). 
 
-**MobileNet** is the compact and efficient **feature extractor**, using Depth-wise Separable convolution layers to build a light weight deep neural net.
+**MobileNet** is the compact and efficient **feature extractor**, using **Depth-wise Separable convolution layers** to build a light weight deep neural net.
 
-<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/images/mobileNet-SSD-network-architecture.png" alt="MobileNet SSD Architecture">
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/mobileNet-SSD-network-architecture.png" alt="MobileNet SSD Architecture">
 
 
 ### NMS
-**Input**: A list of proposal boxes B, corresponding confidence scores S and overlap threshold N.
+**Objective**: Ignore bad bounding boxes that significantly overlap each other.
+
+**Input**: A list of proposal boxes B, corresponding confidence scores and overlap threshold N.
 
 **Output**: A list of filtered proposals D.
 
@@ -56,9 +58,10 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 
 ### Result
 
-<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/images/part2_res.png" alt="Part2 result">
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part2_res.png" alt="Part2 result">
 
 ## Part 3. Simple Face recognition and Attendance
 
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/par3_res1.png" alt="Part3 result 1">
 
 ## Part 4. Augmented Reality
