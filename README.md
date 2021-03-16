@@ -24,8 +24,11 @@ Tesseract is the OCR (Optical Character Recognition) current top engine, it is d
 
 The rating according to whether the word was in a dictionary and/or had a sensible arrangement of punctuation around it. For the English version, most of these punctuation rules were hard-coded. 
 
-
 The modern version of Tesseract adds a new LSTM model. The input image is processed in character-bounding boxes line by line feeding into the LSTM model and giving output.
+
+### Result
+
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/images/part1_res.png" alt="Part1 result">
 
 
 ## Part 2. Object detection with SSD and NMS
@@ -51,6 +54,11 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 + 4, Once again calculate the IOU of this proposal with all the proposals in B and eliminate the boxes which have high IOU than threshold.
 + 5, This process is repeated until there are no more proposals left in B.
 
+### Result
+
+<img src="https://github.com/hoangtv2000/opencv_practices/blob/main/images/part2_res.png" alt="Part2 result">
 
 ## Part 3. Simple Face recognition and Attendance
+
+
 ## Part 4. Augmented Reality
