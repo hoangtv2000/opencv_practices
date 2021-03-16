@@ -79,3 +79,5 @@ def realtime_detector():
             break
 
     cv2.destroyAllWindows()
+
+    #TODO: call func you want to use
