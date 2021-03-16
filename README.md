@@ -19,7 +19,7 @@ Tesseract is the OCR (Optical Character Recognition) current top engine, it is d
 + **Step 2.** Present result to a dictionary search and choose one of classifier choices for each blob in a word.
 + **Step 3.** Each word that is satisfactory is passed to an adaptive classifier as training data.
 + **Step 4.** Cut poorly recognized characters (called fragments), in order to mproves the classifier confidence. 
-+ **Step 5.** A best-first search of the resulting segmentation graph puts fragments back together and recombinate together. Then present result to dictionary.
++ **Step 5.** A best-first search of the resulting segmentation graph puts fragments back together and recombinate together. Then  re-present result to dictionary.
 + **Step 6.** The output of BFS is the best overall distance-based rating. 
 
 The rating according to whether the word was in a dictionary and/or had a sensible arrangement of punctuation around it. For the English version, most of these punctuation rules were hard-coded. 
