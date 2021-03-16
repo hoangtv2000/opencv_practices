@@ -62,6 +62,13 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 
 ## Part 3. Simple Face recognition and Attendance
 
+### Face recoginition problem
+Solve face recognition problem by face_recognition library. It uses Histogram of Oriented Gradients (HOG) to localize faces. Also uses pretrained neural network as feature descriptor, which has outputs 128 measurements that are unique to particular face. In order to compare faces, we use traditional linear SVM classifier to find whether the face match by the function **compare_faces**, it returns true or false. In addition to calculate the Euclidian distance of two 128-d descriptors, we use **face_distance** function. 
+
+**Result by comparing two images**
+
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/par3_res1.png" alt="Part3 result 1">
+
+### Attendance problem
 
 ## Part 4. Augmented Reality
