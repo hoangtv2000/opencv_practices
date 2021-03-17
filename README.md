@@ -1,5 +1,5 @@
-# OPENCV practices 
-## Part 1. Simple Optical character recognition by Tesseract
+## OPENCV practices 
+# Part 1. Simple Optical character recognition by Tesseract
 Tesseract is the OCR (Optical Character Recognition) current top engine, it is developed by Google, with open-source license Apache 2.0. In the first part, we applicate the engine to build a simple OCR program.
 
 ### Mechanism
@@ -31,7 +31,7 @@ The modern version of Tesseract adds a new LSTM model. The input image is proces
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part1_res.png" alt="Part1 result">
 
 
-## Part 2. Object detection with SSD and NMS
+# Part 2. Object detection with SSD and NMS
 Implement Single Shot Detector (SSD) for object detection problem. And apply Non-max suppression techique to remove redundant proposal boxes.
 
 ### SSD
@@ -60,7 +60,7 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part2_res.png" alt="Part2 result">
 
-## Part 3. Simple Face recognition and Attendance
+# Part 3. Simple Face recognition and Attendance
 
 ### Face recoginition problem
 Solve face recognition problem by face_recognition library. It uses Histogram of Oriented Gradients (HOG) to localize faces. Also uses pretrained neural network as feature descriptor, which has outputs 128 measurements that are unique to particular face. In order to compare faces, we use traditional linear SVM classifier to find whether the face match by the function **compare_faces**, it returns true or false. In addition to calculate the Euclidian distance of two 128-d descriptors, we use **face_distance** function.
@@ -77,4 +77,6 @@ Face recognition by webcam and check wether the faces are in our image folder, t
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part3_res2.png" alt="Part3 result 2">
 
 
-## Part 4. Augmented Reality
+# Part 4. Augmented Reality
+
+# Part 5. Optical Mark Recognition (OMR)
