@@ -35,7 +35,7 @@ The modern version of Tesseract adds a new LSTM model. The input image is proces
 Implement Single Shot Detector (SSD) for object detection problem. And apply Non-max suppression techique to remove redundant proposal boxes.
 
 ### SSD
-**Single shot detector (SSD)** is a neural net architecture designed for object detection purposes - which means extract high-level features, localization (bounding boxes) and classification while propagation. The MobileNet-v3 SSD model is pretrained by COCO dataset. In can classify [91 diferrent classes](https://github.com/ankityddv/ObjectDetector-OpenCV/blob/main/coco.names). 
+**Single shot detector (SSD)** is a neural net architecture designed for object detection purposes - which means extract high-level features, localization (bounding boxes) and classification while propagation. The model use MobileNet-v3 as backbone, and is pretrained by COCO dataset. In can classify [91 diferrent classes](https://github.com/ankityddv/ObjectDetector-OpenCV/blob/main/coco.names). 
 
 **MobileNet** is the compact and efficient **feature extractor**, using **Depth-wise Separable convolution layers** to build a light weight deep neural net.
 
