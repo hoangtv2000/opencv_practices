@@ -9,3 +9,6 @@
 + [Part 3. Simple Face recognition and Attendance](https://github.com/hoangtv2000/opencv_practices/blob/main/basic_intermediate.md#part-3-simple-face-recognition-and-attendance)
 
 ## Advanced Problems
+[Click to see all content]
++ [Part 1. Augmented Reality]
++ [Part 2. Optical Mark Recognition]
