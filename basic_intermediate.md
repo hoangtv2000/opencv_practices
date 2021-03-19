@@ -2,6 +2,8 @@
 # Part 1. Simple Optical character recognition by Tesseract
 Tesseract is the OCR (Optical Character Recognition) current top engine, it is developed by Google, with open-source license Apache 2.0. In the first part, we applicate the engine to build a simple OCR program.
 
+[Click here to discover the code](https://github.com/hoangtv2000/opencv_practices/blob/main/code_basic_intermediate/text_detection_OCR.py)
+
 ### Mechanism
 **Input**: Binary Image.
 
@@ -33,6 +35,8 @@ The modern version of Tesseract adds a new LSTM model. The input image is proces
 
 # Part 2. Object detection with SSD and NMS
 Implement Single Shot Detector (SSD) for object detection problem. And apply Non-max suppression techique to remove redundant proposal boxes.
+
+[Click here to discover the code](https://github.com/hoangtv2000/opencv_practices/blob/main/code_basic_intermediate/obj_dec_SSD_NMS.py)
 
 ### SSD
 **Single shot detector (SSD)** is a neural net architecture designed for object detection purposes - which means extract high-level features, localization (bounding boxes) and classification while propagation. The model use MobileNet-v3 as backbone, and is pretrained by COCO dataset. In can classify [91 diferrent classes](https://github.com/ankityddv/ObjectDetector-OpenCV/blob/main/coco.names). 
@@ -66,6 +70,10 @@ Implement Single Shot Detector (SSD) for object detection problem. And apply Non
 Solve face recognition problem by face_recognition library. It uses Histogram of Oriented Gradients (HOG) to localize faces. Also uses pretrained neural network as feature descriptor, which has outputs 128 measurements that are unique to particular face. In order to compare faces, we use traditional linear SVM classifier to find whether the face match by the function **compare_faces**, it returns true or false. In addition to calculate the Euclidian distance of two 128-d descriptors, we use **face_distance** function.
 
 We have two programs for this problem, one for recognition by image, another for recogintion by webcam.
+
+[Click here to discover the first program](https://github.com/hoangtv2000/opencv_practices/blob/main/code_basic_intermediate/face_recog.py)
+
+[Click here to discover the second program](https://github.com/hoangtv2000/opencv_practices/blob/main/code_basic_intermediate/face_recog_cam.py)
 
 **Result by comparing two images**
 
