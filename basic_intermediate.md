@@ -82,4 +82,6 @@ We have two programs for this problem, one for recognition by image, another for
 ### Attendance problem
 Face recognition by webcam and check wether the faces are in our image folder, then save the history of appearance. 
 
+**Result**
+
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part3_res2.png" alt="Part3 result 2">
