@@ -11,6 +11,8 @@ The most famous, easily recognizable form of OMR are bubble sheet multiple choic
 
 **Output**: Giving a mark for each right and wrong answer, and write down score to the cell score of an exam.
 
+[Click here to discover the code](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/OMR/code_omr.py)
+
 ## Process to solve
 
 + Step 1: Detect the exam in an image.
@@ -21,8 +23,6 @@ The most famous, easily recognizable form of OMR are bubble sheet multiple choic
 + Step 6: Lookup the right answer to determine whether marked answer was correct.
 + Step 7: Repeat for all questions and calculate score.
 + Step 8: Write down score to grade area.
-
-[Click here to discover the code](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/OMR/code_omr.py)
 
 ## Result
 
