@@ -22,6 +22,8 @@ The most famous, easily recognizable form of OMR are bubble sheet multiple choic
 + Step 7: Repeat for all questions and calculate score.
 + Step 8: Write down score to grade area.
 
+[Click here to discover the code](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/OMR/code_omr.py)
+
 ## Result
 
 Result with the right answers: [B, C, A, A, E]
