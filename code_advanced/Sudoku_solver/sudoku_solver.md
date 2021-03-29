@@ -15,7 +15,7 @@ After that, we solve the Sudoku grid by Backtracking algorithm and unwarp the gr
 ## Process to solve
 
 + Step 1: Provide input image containing Sudoku puzzle to our system.
-+ Step 2: Locate where in the input image the grid is and extract the grid.
++ Step 2: Locate where in the input image the grid is and extract the grid. Specifically, we can solve the convex-grid defect.
 + Step 3: Given the grid, locate each of the individual cells of the Sudoku grid (most standard Sudoku puzzles are a 9×9 grid, so we’ll need to localize each of these cells).
 + Step 4: Determine if a digit exists in the cell, and if so, detect given digits by CNN digit classifier.
 + Step 5: Apply a Backtracking algorithm to solve and validate the puzzle.
