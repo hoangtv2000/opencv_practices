@@ -24,5 +24,13 @@ After that, we solve the Sudoku grid by Backtracking algorithm and unwarp the gr
 
 ## Input images
 
-<img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/images/sudoku-og1.jpg' width = '500' height = '600' wspace="20"/><img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/images/sudoku-og2.jpg' width = '500' height = '600'/>
+<img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/images/sudoku-og1.jpg' width = '400' height = '500' hspace="20"/><img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/images/sudoku-og2.jpg' width = '400' height = '500'/>
 
+## Process
+
+<img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/results/sudoku-p1.jpg' width = '1000' height = '600'>
+<img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/results/sudoku-p2.jpg' width = '1000' height = '600'>
+
+## Result
+
+<img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/results/sudoku-res1.jpg' width = '400' height = '500' hspace="20"/><img src = 'https://github.com/hoangtv2000/opencv_practices/blob/main/results/sudoku-res2.jpg' width = '400' height = '500'/>
