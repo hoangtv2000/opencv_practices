@@ -9,5 +9,5 @@
 + [Part 3. Simple Face recognition and Attendance](https://github.com/hoangtv2000/opencv_practices/blob/main/basic_intermediate.md#part-3-simple-face-recognition-and-attendance)
 
 ## Advanced Problems
-+ [Part 1. Augmented Reality]
-+ [Part 2. Optical Mark Recognition](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/OMR/OMR_readme.md)
++ [Part 1. Optical Mark Recognition](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/OMR/OMR_readme.md)
++ [Part 2. Sudoku solver](https://github.com/hoangtv2000/opencv_practices/blob/main/code_advanced/Sudoku_solver/sudoku_solver.md)
