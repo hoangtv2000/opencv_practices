@@ -1,6 +1,6 @@
 # OPENCV practices
 
-**Introduction**: In this repo, we practice to solve various of computer vision problem by OpenCV module.
+**Introduction**: In this repo, we practice to solve various of computer vision problems by OpenCV module.
 
 ## Basic & Intermediate Problems
 [Click to see all content](https://github.com/hoangtv2000/opencv_practices/blob/main/basic_intermediate.md)
