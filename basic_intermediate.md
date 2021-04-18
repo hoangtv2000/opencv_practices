@@ -80,7 +80,7 @@ We have two programs for this problem, one for recognition by image, another for
 <img src="https://github.com/hoangtv2000/opencv_practices/blob/main/results/part3_res1.png" alt="Part3 result 1">
 
 ### Attendance problem
-Face recognition by webcam and check wether the faces are in our image folder, then save the history of appearance. 
+Face recognition by webcam and check wheter the faces are in our image folder, then save the history of appearance. 
 
 **Result**
 
